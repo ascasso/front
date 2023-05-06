@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "username": "johndoe",
+      "email": "johndoe@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "username": "janesmith",
+      "email": "janesmith@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "username": "bobjohnson",
+      "email": "bobjohnson@example.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "My First Post",
+      "body": "Lorem ipsum dolor sit amet.",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "My Second Post",
+      "body": "Lorem ipsum dolor sit amet.",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "title": "My Third Post",
+      "body": "Lorem ipsum dolor sit amet.",
+      "userId": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "body": "Great post!",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "body": "I learned a lot from this post.",
+      "postId": 2
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bobjohnson@example.com",
+      "body": "Thanks for sharing.",
+      "postId": 3
+    }
+  ]
+}

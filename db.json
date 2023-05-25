@@ -17,6 +17,12 @@
       "name": "Bob Johnson",
       "username": "bobjohnson",
       "email": "bobjohnson@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Jimmy Johnson",
+      "username": "jimmyjohnson",
+      "email": "jjohnson@example.com"
     }
   ],
   "posts": [
@@ -37,6 +43,12 @@
       "title": "My Third Post",
       "body": "Lorem ipsum dolor sit amet.",
       "userId": 3
+    },
+    {
+      "id": 4,
+      "title": "My Frourh Post",
+      "body": "In vino veritas.",
+      "userId": 4
     }
   ],
   "comments": [
@@ -56,10 +68,17 @@
     },
     {
       "id": 3,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "body": "I learned a lot from this post.",
+      "postId": 3
+    },
+    {
+      "id": 4,
       "name": "Bob Johnson",
       "email": "bobjohnson@example.com",
       "body": "Thanks for sharing.",
-      "postId": 3
+      "postId": 4
     }
   ]
 }

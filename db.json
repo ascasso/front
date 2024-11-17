@@ -23,6 +23,12 @@
       "name": "Jimmy Johnson",
       "username": "jimmyjohnson",
       "email": "jjohnson@example.com"
+    },
+    {
+      "id": 5,
+      "name": "Jenny Johnson",
+      "username": "jennyjohnson",
+      "email": "jennyj@example.com"
     }
   ],
   "posts": [
